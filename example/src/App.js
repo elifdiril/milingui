@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'milingui'
+import { Button } from 'milingui'
 import 'milingui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return(<>
+  <Button type="primary" text="Create React Library Example 😄" />
+  <Button type="dashed" text="Create React Library Example 😄" />
+  <Button type="link" text="Create React Library Example 😄" />
+  <Button text="Create React Library Example 😄" />
+  </>) 
 }
 
 export default App

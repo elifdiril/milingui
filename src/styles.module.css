@@ -1,9 +1,36 @@
 /* add css module styles here (optional) */
+.button {
+  font-weight: bold;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 7px;
+  background-color: rgb(114, 69, 197);
+  color: white;
+}
+.primary {
+  background-color: #1890ff;
+  color: white;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.dashed {
+  border: dashed;
+  border-width: 1px;
+  background-color: rgb(114, 69, 197);
+  color: white;
+}
+
+.text{
+  background-color: transparent;
+  color: black;
+}
+
+.link{
+  background-color: transparent;
+  color: black;
+}
+
+.link:hover{
+  color: #1890ff;
 }

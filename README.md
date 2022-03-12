@@ -20,7 +20,13 @@ import 'milingui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <>
+        <Button type='primary' text='Primary Button 😄' />
+        <Button type='dashed' text='Dashed Button 😄' />
+        <Button type='link' text='Link Button 😄' />
+      </>
+    )
   }
 }
 ```
